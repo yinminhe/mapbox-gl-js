@@ -90,6 +90,7 @@ export type VectorSourceSpecification = {
     "maxzoom"?: number,
     "attribution"?: string,
     "promoteId"?: PromoteIdSpecification,
+    "volatile"?: boolean,
     "zoomOffset"?: number
 }
 
@@ -103,6 +104,7 @@ export type RasterSourceSpecification = {
     "tileSize"?: number,
     "scheme"?: "xyz" | "tms",
     "attribution"?: string,
+    "volatile"?: boolean,
     "zoomOffset"?: number
 }
 
@@ -116,6 +118,7 @@ export type RasterDEMSourceSpecification = {
     "tileSize"?: number,
     "attribution"?: string,
     "encoding"?: "terrarium" | "mapbox",
+    "volatile"?: boolean,
     "zoomOffset"?: number
 }
 
