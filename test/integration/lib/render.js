@@ -87,6 +87,7 @@ async function testFunc(t) {
     container.style.height = `${options.height}px`;
 
     //2. Initialize the Map
+    mapboxgl.accessToken = 'pk.eyJ1IjoibWFwYm94LWdsLWpzIiwiYSI6ImNram9ybGI1ajExYjQyeGxlemppb2pwYjIifQ.LGy5UGNIsXUZdYMvfYRiAQ';
     const map = new mapboxgl.Map({
         container,
         style,
@@ -97,6 +98,7 @@ async function testFunc(t) {
         axonometric: options.axonometric || false,
         skew: options.skew || [0, 0],
         fadeDuration: options.fadeDuration || 0,
+        optimizeForTerrain: options.optimizeForTerrain || false,
         localIdeographFontFamily: options.localIdeographFontFamily || false,
         crossSourceCollisions: typeof options.crossSourceCollisions === "undefined" ? true : options.crossSourceCollisions,
         transformRequest: (url, resourceType) => {
@@ -128,6 +130,11 @@ async function testFunc(t) {
 
     const gl = map.painter.context.gl;
     map.once('load', async () => {
+        // Disable vertex morphing by default
+        if (map.painter.terrain) {
+            map.painter.terrain.useVertexMorphing = false;
+        }
+
         //3. Run the operations on the map
         applyOperations(map, options, async () => {
             map.repaint = false;

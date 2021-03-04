@@ -1030,10 +1030,10 @@
   resolved "https://registry.yarnpkg.com/@cgcs2000/geojson-vt/-/geojson-vt-3.2.1.tgz#fba7ffbb9e8d6fdc9c1adcc980689a48326f4510"
   integrity sha512-qLgZ7vae7KF2ddXIYjp5jZmqWU9prpG5FvMffWDPeH4c2NghKgLKiLlunZWescG4FHzqxO23ENoXyIs6aRQhgQ==
 
-"@cgcs2000/supercluster@^7.1.0":
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/@cgcs2000/supercluster/-/supercluster-7.1.0.tgz#397e97101f605fbbc9104e7a3efe459fb2c92c80"
-  integrity sha512-j5uqYRcqftKqpPNEMRMMXBSkg5daO1x60ZbQkltQJSr0DGjpYLSx952XPlkFgS//u2e2mnNG7UUMya+MpZw4mQ==
+"@cgcs2000/supercluster@^7.1.2":
+  version "7.1.2"
+  resolved "https://registry.yarnpkg.com/@cgcs2000/supercluster/-/supercluster-7.1.2.tgz#3643cb6fa768b6d5ed81450d7b48e3c0c18bef9a"
+  integrity sha512-hMuj/ypkLzLNRzZ+EopCiJe8DcFUf8ikBrk0JvO8FwEuDEnL2efSLX4aX7nJqnWTh0C2jvnsgDrluE7FwQTVeQ==
   dependencies:
     kdbush "^3.0.0"
 
@@ -1126,10 +1126,10 @@
   resolved "https://registry.yarnpkg.com/@mapbox/sphericalmercator/-/sphericalmercator-1.1.0.tgz#f3b1af042620716a1289fc41e1e97f610823aefe"
   integrity sha512-pEsfZyG4OMThlfFQbCte4gegvHUjxXCjz0KZ4Xk8NdOYTQBLflj6U8PL05RPAiuRAMAQNUUKJuL6qYZ5Y4kAWA==
 
-"@mapbox/tiny-sdf@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@mapbox/tiny-sdf/-/tiny-sdf-1.1.1.tgz#16a20c470741bfe9191deb336f46e194da4a91ff"
-  integrity sha512-Ihn1nZcGIswJ5XGbgFAvVumOgWpvIjBX9jiRlIl46uQG9vJOF51ViBYHF95rEZupuyQbEmhLaDPLQlU7fUTsBg==
+"@mapbox/tiny-sdf@^1.2.2":
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/@mapbox/tiny-sdf/-/tiny-sdf-1.2.5.tgz#424c620a96442b20402552be70a7f62a8407cc59"
+  integrity sha512-cD8A/zJlm6fdJOk6DqPUV8mcpyJkRz2x2R+/fYcWDYG3oWbG7/L7Yl/WqQ1VZCjnL9OTIMAn6c+BC5Eru4sQEw==
 
 "@mapbox/unitbezier@^0.0.0":
   version "0.0.0"

@@ -94,6 +94,7 @@ workflows:
               only: /v[0-9]+.[0-9]+.[0-9]+(-.+)?/
             branches:
               ignore: /.*/
+              
 
 defaults: &defaults
   docker:
@@ -270,6 +271,15 @@ jobs:
       - attach_workspace:
           at: .
       - aws-cli/install
+      - run:
+          name: Check build file for correct SDK version
+          command: |
+            if grep -q "sdkVersion:\"$CIRCLE_TAG\"" mapbox-gl.js; then
+              echo SDK version in mapbox-gl.js matches $CIRCLE_TAG
+            else
+              echo SDK version in mapbox-gl.js does not match $CIRCLE_TAG
+              circleci-agent step halt
+            fi
       - run:
           name: Deploy release
           command: |
