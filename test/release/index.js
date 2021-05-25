@@ -112,19 +112,6 @@ const pages = [
         "key": "heatmap-layer",
         "title": "Add a heatmap layer"
     },
-<<<<<<< HEAD
-    "add-terrain": {
-        "title": "Add Terrain"
-    },
-    "atmospheric-sky": {
-        "title": "Atmospheric Sky"
-    },
-    "free-camera-point": {
-        "title": "Free Camera Point"
-    },
-    "image-on-a-map": {
-        "title": "Image Source"
-=======
     {
         "key": "heatmap-layer",
         "title": "Add a heatmap layer (3d)",
@@ -160,6 +147,11 @@ const pages = [
         "inject3d": true
     },
     {
+        "key": "extrusion-query",
+        "url": "./extrusion-query.html",
+        "title": "Fill extrusion querying with terrain"
+    },
+    {
         "key": "3d-playground",
         "title": "3D Playground",
         "url": "./3d-playground.html"
@@ -168,7 +160,6 @@ const pages = [
         "key": "skybox-gradient",
         "title": "Skybox gradient",
         "url": "./skybox-gradient.html"
->>>>>>> v2.1.0
     }
 ];
 
