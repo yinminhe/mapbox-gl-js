@@ -1,6 +1,7 @@
 // @flow
 
 import LngLat, {earthRadius} from '../geo/lng_lat.js';
+import {clamp} from '../util/util.js';
 import type {LngLatLike} from '../geo/lng_lat.js';
 
 /*
