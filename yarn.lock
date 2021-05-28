@@ -1054,10 +1054,10 @@
   resolved "https://registry.yarnpkg.com/@cgcs2000/geojson-vt/-/geojson-vt-3.2.1.tgz#fba7ffbb9e8d6fdc9c1adcc980689a48326f4510"
   integrity sha512-qLgZ7vae7KF2ddXIYjp5jZmqWU9prpG5FvMffWDPeH4c2NghKgLKiLlunZWescG4FHzqxO23ENoXyIs6aRQhgQ==
 
-"@cgcs2000/supercluster@^7.1.2":
-  version "7.1.2"
-  resolved "https://registry.yarnpkg.com/@cgcs2000/supercluster/-/supercluster-7.1.2.tgz#3643cb6fa768b6d5ed81450d7b48e3c0c18bef9a"
-  integrity sha512-hMuj/ypkLzLNRzZ+EopCiJe8DcFUf8ikBrk0JvO8FwEuDEnL2efSLX4aX7nJqnWTh0C2jvnsgDrluE7FwQTVeQ==
+"@cgcs2000/supercluster@^7.1.3":
+  version "7.1.3"
+  resolved "https://registry.yarnpkg.com/@cgcs2000/supercluster/-/supercluster-7.1.3.tgz#ce66fe971923aefd71246ce7921a8ccf6e39d995"
+  integrity sha512-fow2gqi5QkiWtTeoM6O7gpLPOVTy8+0/dmZLKZbk+J61v/pENZte0zqTKQYW79c3oRdyS3uTVSouZhoec21JrQ==
   dependencies:
     kdbush "^3.0.0"
 
